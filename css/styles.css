@@ -675,6 +675,10 @@ img {
     position: relative;
     overflow: hidden;
 }
+
+.portfolio-transition-div p {
+    transform: translateY(0%);
+}
   
 .portfolio-transition-p {
     position: absolute;
