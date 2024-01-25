@@ -675,6 +675,11 @@ img {
     position: relative;
     overflow: hidden;
 }
+
+.portfloio-transition-div p:hover,
+.portfloio-transition-div p:focus {
+    transform: translateY(0%);
+}
   
 .portfolio-transition-p {
     position: absolute;
