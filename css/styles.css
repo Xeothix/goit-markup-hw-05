@@ -472,6 +472,7 @@ img {
 }
 
 .portfolio-link {
+    text-decoration: none;
     width: calc((100%-48px) / 3);
     display: block;
     transition: box-shadow 250ms var(--transition-variable);
