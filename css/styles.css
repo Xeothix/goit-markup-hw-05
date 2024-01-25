@@ -474,6 +474,7 @@ img {
 .portfolio-link {
     width: calc((100%-48px) / 3);
     display: block;
+    transition: box-shadow 250ms var(--transition-variable);
 }
 
 .portfolio-link:hover,
@@ -690,6 +691,6 @@ img {
     transform: translateY(0%);
 }
 
-.buttons-li {
+.portfolio-list-two-element a {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
